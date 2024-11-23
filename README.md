@@ -16,10 +16,10 @@ The Kelly Criterion formula for a single trade or bet is:
 f^* = \frac{bp - q}{b}
 `
 
-Where:  
-- \(f^*\): The fraction of your capital to wager/invest.  
-- \(b\): The odds received on the wager (e.g., \(b = 1\) for even money).  
-- \(p\): The probability of a win.  
+Where:
+- \(f^*\): The fraction of your capital to wager/invest.
+- \(b\): The odds received on the wager (e.g., \(b = 1\) for even money).
+- \(p\): The probability of a win.
 - \(q\): The probability of a loss (\(q = 1 - p\)).
 
 For financial markets, where returns are often continuous rather than discrete, the generalized Kelly Criterion formula is:
@@ -28,9 +28,9 @@ For financial markets, where returns are often continuous rather than discrete, 
 f^* = \frac{\mu - r}{\sigma^2}
 `
 
-Where:  
-- \(\mu\): The expected return of the investment.  
-- \(r\): The risk-free rate (can be assumed 0 in many cases).  
+Where:
+- \(\mu\): The expected return of the investment.
+- \(r\): The risk-free rate (can be assumed 0 in many cases).
 - \(\sigma^2\): The variance of returns.
 
 These formulas help calculate the optimal fraction of capital to allocate to maximize growth over the long run.
@@ -51,10 +51,85 @@ The Kelly Criterion was first introduced in John L. Kelly Jr.'s groundbreaking p
 
 ## How to Use
 
-1. Enter the trade parameters, including odds, win probability, and/or expected return.  
-2. The tool calculates the optimal position size for maximizing growth.  
+1. Enter the trade parameters, including odds, win probability, and/or expected return.
+2. The tool calculates the optimal position size for maximizing growth.
 3. Use the results to inform your trading or betting strategy.
 
 ## Disclaimer
 
 This tool is for informational and educational purposes only. It does not constitute financial advice. Always perform your own due diligence and consult with a financial advisor before making investment decisions.
+
+
+# Nuxt Minimal Starter
+
+Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+
+## Setup
+
+Make sure to install dependencies:
+
+```bash
+# npm
+npm install
+
+# pnpm
+pnpm install
+
+# yarn
+yarn install
+
+# bun
+bun install
+```
+
+## Development Server
+
+Start the development server on `http://localhost:3000`:
+
+```bash
+# npm
+npm run dev
+
+# pnpm
+pnpm dev
+
+# yarn
+yarn dev
+
+# bun
+bun run dev
+```
+
+## Production
+
+Build the application for production:
+
+```bash
+# npm
+npm run build
+
+# pnpm
+pnpm build
+
+# yarn
+yarn build
+
+# bun
+bun run build
+```
+
+Locally preview production build:
+
+```bash
+# npm
+npm run preview
+
+# pnpm
+pnpm preview
+
+# yarn
+yarn preview
+
+# bun
+bun run preview
+```
