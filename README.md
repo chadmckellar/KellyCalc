@@ -12,9 +12,9 @@ The criterion is widely used in financial markets, sports betting, and gambling,
 
 The Kelly Criterion formula for a single trade or bet is:
 
-\[
+`
 f^* = \frac{bp - q}{b}
-\]
+`
 
 Where:  
 - \(f^*\): The fraction of your capital to wager/invest.  
@@ -24,9 +24,9 @@ Where:
 
 For financial markets, where returns are often continuous rather than discrete, the generalized Kelly Criterion formula is:
 
-\[
+`
 f^* = \frac{\mu - r}{\sigma^2}
-\]
+`
 
 Where:  
 - \(\mu\): The expected return of the investment.  
